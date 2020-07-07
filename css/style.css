@@ -530,18 +530,6 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-contact .heading .subtle-text span {
   display: block;
 }
-#gtco-contact .form-group {
-  margin-bottom: 30px;
-}
-#gtco-contact .form-control {
-  height: 70px;
-  font-size: 18px;
-  box-shadow: none !important;
-  border: 1px solid #cccccc;
-  padding-left: 20px;
-  padding-right: 20px;
-  background: #fff;
-}
 #gtco-contact textarea {
   height: inherit !important;
   resize: vertical;
@@ -1206,3 +1194,8 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 768px){
+  #pes-logo{
+    display: none;
+  }
+}
