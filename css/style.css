@@ -12,20 +12,11 @@
 * ======================================================= */
 
 .name{
-font-size: 30px;
-clear: both;
-}
-
-.des{
- opacity: 0.7; 
- font-size: 23px;
- clear:both;
-}
-
-.column1{
-display:inline-block; 
-width:5%; 
-margin: 13%;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 768px){
@@ -88,7 +79,6 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 30px 0;
 }
 
 ::-webkit-selection {
@@ -466,28 +456,9 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: -1;
   line-height: 1;
 }
-#gtco-practice-areas .heading .subtle-text span {
-  display: block;
-}
-#gtco-practice-areas .gtco-practice-area-item {
-  margin-bottom: 30px;
-}
-#gtco-practice-areas .gtco-practice-area-item .gtco-icon,
-#gtco-practice-areas .gtco-practice-area-item .gtco-copy {
-  display: table-cell;
-  vertical-align: top;
-}
-#gtco-practice-areas .gtco-practice-area-item .gtco-icon {
-  width: 100px;
-}
-@media screen and (max-width: 768px) {
-  #gtco-practice-areas .gtco-practice-area-item .gtco-icon {
-    width: 70px;
-  }
-}
+
 #gtco-practice-areas .gtco-practice-area-item .gtco-copy h3 {
-  margin-bottom: 15px;
-  font-size: 24px;
+  margin-bottom: 11px;
 }
 
 #gtco-our-team .heading {
