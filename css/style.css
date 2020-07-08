@@ -11,10 +11,27 @@
 *
 * ======================================================= */
 
+.name{
+font-size: 30px
+}
+
+.des{
+ opacity: 0.7; 
+ font-size: 23px;
+}
+
 .column1{
 display:inline-block; 
 width:5%; 
 margin: 13%;
+}
+
+@media screen and (max-width: 768px){
+.column1{
+display:block; 
+width:100%; 
+margin: 13%;
+}
 }
 
 body {
