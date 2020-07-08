@@ -12,12 +12,14 @@
 * ======================================================= */
 
 .name{
-font-size: 30px
+font-size: 30px;
+clear: both;
 }
 
 .des{
  opacity: 0.7; 
  font-size: 23px;
+ clear:both;
 }
 
 .column1{
